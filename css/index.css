@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  color: #F6F6F6;
+  font-size: 100%;
+  background-size: cover;
+}
+
+.header {
+  border-bottom: #F6F6F6;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  display: flex;
+
+}
+
+.home {
+  color: #22D4FD;
+  font-weight: 400;
+  font-size: 18px;
+  text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+strong {
+  color: #22D4FD;
+  font-family: 'Krona One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.h1 {
+  font-family: 'Krona One', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.buttons {
+  display: flex;
+  width: 280px;
+  height: 79px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.instagram {
+  border-radius: 16px;
+  border: 0px solid #22D4FD;
+  background: #22D4FD;
+}
+
+.github {
+  border-radius: 16px;
+  border: 0px solid #22D4FD;
+  background: #22D4FD;
+}
+
+.image {
+  width: 467.705px;
+  height: 532px;
+  flex-shrink: 0;
+}
+
+.perfil {
+  width: 500px;
+}
